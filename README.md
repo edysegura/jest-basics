@@ -1,4 +1,10 @@
 # Node.js Automated Tests
 
-Examples with automated tests in [Node.js](https://nodejs.org/en/) with [Jest](http://facebook.github.io/jest/)
+Automated tests examples in [Node.js](https://nodejs.org/en/) and [Jest](http://facebook.github.io/jest/). The best of all, there is no configuration!
+
+## How to run?
+
+`npm install`
+
+`npm test`
 
