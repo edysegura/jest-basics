@@ -8,3 +8,6 @@ Automated tests examples in [Node.js](https://nodejs.org/en/) and [Jest](http://
 
 `npm test`
 
+## References
+
+- [Jest, Painless JavaScript Testing](https://facebook.github.io/jest/)
