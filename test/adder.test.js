@@ -1,4 +1,4 @@
-const adder = require('./adder')
+const adder = require('../app/adder')
 
 describe("Adder Module", () => {
     it('it should sum numbers', () => {
