@@ -4,9 +4,12 @@
   "author": "Edy Segura <edysegura@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "devDependencies": {
     "jest": "^19.0.2"
+  },
+  "jest": {
+    "coverageReporters": ["html", "text", "text-summary"]
   }
 }
