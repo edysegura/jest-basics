@@ -1,3 +1,5 @@
-export default function adder(a, b) {
-  return a + b
+export class MathService {
+  static adder(numberA, numberB) {
+    return numberA + numberB
+  }
 }
