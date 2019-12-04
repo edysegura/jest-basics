@@ -1,4 +1,4 @@
-import { MathService } from '../src/adder'
+import { MathService } from '../src/math.service'
 
 describe('Adder Module', () => {
   it('it should sum numbers', () => {
