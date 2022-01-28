@@ -11,4 +11,6 @@ describe('Adder Module', () => {
     // THAN
     expect(value).toBe(expectedValue)
   })
+
+  it.todo('should return null for non number arguments')
 })
