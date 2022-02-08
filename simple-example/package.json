@@ -1,20 +1,9 @@
 {
-  "name": "nodejs-jest",
-  "version": "1.0.0",
-  "author": "Edy Segura <edysegura@gmail.com>",
-  "license": "MIT",
   "private": true,
   "scripts": {
     "test": "jest --coverage"
   },
   "devDependencies": {
-    "jest": "^27.4.7"
-  },
-  "jest": {
-    "coverageReporters": [
-      "html",
-      "text",
-      "text-summary"
-    ]
+    "jest": "^27.5.0"
   }
 }
