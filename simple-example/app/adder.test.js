@@ -1,6 +1,6 @@
 'use strict'
 
-const adder = require('../app/adder')
+const adder = require('./adder')
 
 describe('Adder Module', () => {
   it('it should sum two numbers', () => {
