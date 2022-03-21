@@ -2,14 +2,11 @@ import { MathService } from './math.service'
 
 describe('Adder Module', () => {
   it('it should sum numbers', () => {
-    // GIVEN
-    const expectedValue = 10
-
     // WHEN
     const value = MathService.adder(5, 5)
 
     // THAN
-    expect(value).toBe(expectedValue)
+    expect(value).toBe(10)
   })
 
   it.todo('should return null for non number arguments')
