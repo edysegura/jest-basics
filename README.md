@@ -1,12 +1,12 @@
 # Automated Tests with Jest
 
-Automated tests examples in [Jest](http://facebook.github.io/jest/). The best of all, there is no configuration!
+Automated tests examples in [Jest](https://jestjs.io/). The best of all, there is no configuration!!
 
 ## How to run?
+Choose a folder and then
 
-`npm install`
-
-`npm test`
+- `npm i`
+- `npm test`
 
 ## References
 
