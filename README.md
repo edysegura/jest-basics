@@ -10,4 +10,4 @@ Automated tests examples in [Jest](http://facebook.github.io/jest/). The best of
 
 ## References
 
-- [Jest, Painless JavaScript Testing](https://facebook.github.io/jest/)
+- [Jest, Painless JavaScript Testing](https://jestjs.io/)
