@@ -5,6 +5,6 @@ describe('Seconds to hh:mm:ss', () => {
     expect(secondsToHms(0)).toBe('00:00:00')
     expect(secondsToHms(1)).toBe('00:00:01')
     expect(secondsToHms(60)).toBe('00:01:00')
-    expect(secondsToHms(60)).toBe('01:00:00')
+    expect(secondsToHms(3600)).toBe('01:00:00')
   })
 })
