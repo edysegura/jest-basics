@@ -3,7 +3,7 @@ export function secondsToHms(elapsedSeconds) {
   const minutes = Math.floor((elapsedSeconds % 3600) / 60)
   const seconds = Math.floor((elapsedSeconds % 3600) % 60)
 
-  const pad = (value) => (value < 10 ? '0' + value : value)
+  const pad = (value) => String(value).padStart(2, '0')
 
   return pad(hours) + ':' + pad(minutes) + ':' + pad(seconds)
 }
