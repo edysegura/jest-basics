@@ -2,6 +2,7 @@ export default class CPF {
   private value: string
 
   constructor(cpf: string) {
+    cpf = cpf.replace(/\D/g, '')
     if (!this.validateCPF(cpf)) {
       throw new Error('Invalid CPF. Please provide a valid CPF number.')
     }
@@ -18,7 +19,6 @@ export default class CPF {
 
   private validateCPF(cpf: string): boolean {
     // Remove non-numeric characters and check if the length is valid
-    cpf = cpf.replace(/\D/g, '')
     if (cpf.length !== 11) {
       return false
     }
